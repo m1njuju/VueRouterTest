@@ -17,6 +17,8 @@
     <!-- 유저정보 페이지 -->
     <!-- path: 'user' -->
     <router-view @login-user="showLogin" />
+    <!-- $emit을 이용해서 사용자 이벤트를 발생시켰을 경우 -->
+    <!-- 이벤트를 발생한 컴포넌트에서 이벤트를 확인해야 한다 -->
   </div>
 </template>
 
