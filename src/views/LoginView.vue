@@ -6,7 +6,7 @@
         <input type="password"><br>
 
         <button @click="loginUser">로그인</button>
-        <button @click="$router.push('/')">취소</button>
+        <button @click="$router.go(-1)">취소</button>
     </div>
 </template>
 
